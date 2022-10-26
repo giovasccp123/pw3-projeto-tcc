@@ -20,11 +20,11 @@
 					<td>{{ item.chegada | date:'dd/MM/yyyy' }}</td>
                     <td>{{ item.saida | date:'dd/MM/yyyy' }}</td>
                     <td>
-                        <button type="submit" class="btn btn-secondary btn-sm">
+                        <button routerLink="detalhes/{{item.id}}" type="submit" class="btn btn-secondary btn-sm">
                             Detalhes
                         </button>
                         &nbsp;&nbsp;&nbsp;
-                        <button type="submit" class="btn btn-warning btn-sm">
+                        <button routerLink= "exluir/{{item.id}}" type="submit" class="btn btn-warning btn-sm">
                             Excluir
                         </button>
                     </td>

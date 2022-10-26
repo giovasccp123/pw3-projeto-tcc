@@ -8,6 +8,7 @@ import { ListagemViagemComponent } from './listagem-viagem/listagem-viagem.compo
 import { HomeComponent } from './home/home.component';
 import { ExclusaoViagemComponent } from './exclusao-viagem/exclusao-viagem.component';
 import { DetalhesViagemComponent } from './detalhes-viagem/detalhes-viagem.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DetalhesViagemComponent } from './detalhes-viagem/detalhes-viagem.compo
     DetalhesViagemComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
