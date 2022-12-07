@@ -1,3 +1,4 @@
+import { ListagemViagemComponent } from './listagem-viagem/listagem-viagem.component';
 import { CadastroViagemComponent } from './cadastro-viagem/cadastro-viagem.component';
 import { DetalhesViagemComponent } from './detalhes-viagem/detalhes-viagem.component';
 import { ExclusaoViagemComponent } from './exclusao-viagem/exclusao-viagem.component';
@@ -11,6 +12,7 @@ const routes: Routes = [
   {path:'cadastro',component : CadastroViagemComponent},
   {path:'detalhes/:id',component : DetalhesViagemComponent},
   {path:'excluir/:id',component : ExclusaoViagemComponent},
+  {path:'lista', component : ListagemViagemComponent},
 ];
 
 @NgModule({
